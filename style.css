@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#tombolBaca {
+  margin-bottom: 10px;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: pink;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 10px;
+}
